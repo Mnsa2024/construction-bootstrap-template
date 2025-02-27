@@ -6,7 +6,7 @@ This is a Bootstrap template for EDC Construction.
 
 | Desktop version                                     |                 Mobile Version                  |
 | --------------------------------------------------- | :---------------------------------------------: |
-| ![Solution Screenshot](./screenshot/desktop_en.png) | ![Solution Screenshot](./screenshot/mobile.png) |
+| ![Solution Screenshot](./Screenshot/desktop.png) | ![Solution Screenshot](./Screenshot/mobile.png) |
 
 ## Links
 
