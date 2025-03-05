@@ -1,0 +1,29 @@
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  h2 {
+    font-family: var(--font-secondary-bold);
+    font-size: 2em;
+    font-weight: bold;
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 50px;
+      height: 3px;
+      background-color: var(--color-primary);
+      margin: 10px;
+    }
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 50px;
+      height: 3px;
+      background-color: var(--color-primary);
+      margin: 10px;
+    }
+  }
+  p {
+    font-size: 1em;
+    font-style: italic;
+  }
+}

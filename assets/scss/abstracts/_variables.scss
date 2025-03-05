@@ -1,0 +1,28 @@
+@font-face {
+  font-family: BlippoBlack;
+  src: url(../fonts/BlippoBlack.ttf);
+}
+@font-face {
+  font-family: majalla;
+  src: url(../fonts/majalla.ttf);
+}
+@font-face {
+  font-family: majalla_bold;
+  src: url(../fonts/majallab.ttf);
+}
+:root {
+  /* Fonts */
+  --font-default: work-sans, sans-serif;
+  --font-primary: BlippoBlack, sans-serif;
+  --font-secondary: majalla, sans-serif;
+  --font-secondary-bold: majalla_bold, sans-serif;
+
+  /* Colors */
+  --color-default: #3a3b3d;
+  --color-primary: #fc9105;
+  --color-primary-light: #fab635;
+  --color-secondary: #295884;
+  --color-secondary-light: #4376ab;
+  --bg-section: #f8f9fa;
+  --bg-overlay: rgba(0, 0, 0, 0.5);
+}

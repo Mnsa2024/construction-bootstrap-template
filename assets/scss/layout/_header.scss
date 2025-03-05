@@ -1,0 +1,13 @@
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  .nav-link {
+    color: #ffffff99;
+    font-size: 1rem;
+    &:hover,
+    &.active {
+      color: var(--color-primary);
+    }
+  }
+}

@@ -1,0 +1,55 @@
+#projects {
+  .button-group {
+    margin-bottom: 10px;
+    button {
+      border: none;
+      background: none;
+      font-weight: bold;
+      &:hover {
+        color: var(--color-primary);
+      }
+    }
+  }
+  .filter-group {
+    > div {
+      margin-bottom: 20px;
+    }
+
+    .card {
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--bg-overlay);
+      }
+      &:hover .card-body {
+        display: block;
+        opacity: 1;
+      }
+      .card-body {
+        transition: all 0.5s ease-in-out;
+        color: white;
+        z-index: 5;
+        opacity: 0;
+        .links {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          a {
+            color: white;
+            font-size: 1.5em;
+            &:first-child {
+              margin-right: 10px;
+            }
+            &:last-child {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

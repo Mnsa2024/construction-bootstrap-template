@@ -19,11 +19,18 @@
       <nav class="navbar" data-bs-theme="dark">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <span class="color-primary">EDC</span> Construction<span
+            <img
+              class="logo-img mw-100"
+              style="width: 40px"
+              src="./assets/img/logo-light.png"
+              alt="Logo"
+            />
+
+            <!-- <span class="color-primary">EDC</span> Construction<span
               class="color-primary"
               >.</span
-            ></a
-          >
+            > -->
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -43,11 +50,18 @@
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
                 <a class="navbar-brand" href="#">
-                  <span class="color-primary">EDC</span> Construction<span
+                  <img
+                    class="mw-100"
+                    style="width: 40px"
+                    src="./assets/img/logo-light.png"
+                    alt="Logo"
+                  />
+
+                  <!-- <span class="color-primary">EDC</span> Construction<span
                     class="color-primary"
                     >.</span
-                  ></a
-                >
+                  > -->
+                </a>
               </h5>
               <button
                 type="button"
@@ -125,7 +139,7 @@
       <div class="container" data-aos="zoom-in" data-aos-duration="3000">
         <h2>Projects</h2>
         <nav class="breadcrumb">
-          <a class="breadcrumb-item" href="#">Home</a>
+          <a class="breadcrumb-item" href="index.html">Home</a>
           <span class="breadcrumb-item active" aria-current="page"
             >Projects</span
           >
@@ -143,18 +157,18 @@
             data-aos="fade-up"
           >
             <button data-filter="*">All</button>
-            <button data-filter=".remodeling">Remodeling</button>
-            <button data-filter=".construction">Construction</button>
-            <button data-filter=".repairs">Repairs</button>
-            <button data-filter=".design">Design</button>
+            <button data-filter=".planning">Planning</button>
+            <button data-filter=".structural">Structural</button>
+            <button data-filter=".building">Building</button>
+            <button data-filter=".finishing">Finishing</button>
           </div>
 
           <div class="row row-gap-3 filter-group" data-aos="fade-up">
-            <div class="col-sm-12 col-md-6 col-lg-4 remodeling">
+            <div class="col-sm-12 col-md-6 col-lg-4 planning">
               <div class="card position-relative">
                 <img
                   class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
+                  src="./assets/img/projects/planning-1.jpg"
                   alt="Title"
                 />
                 <div
@@ -162,7 +176,37 @@
                 >
                   <h4 class="card-title">Title</h4>
                   <div class="links text-center">
-                    <a href=""
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#planning-1"
+                    >
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </a>
+                    <a href="">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                  <p class="card-text text-center">Text</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 building">
+              <div class="card position-relative">
+                <img
+                  class="card-img-top"
+                  src="./assets/img/projects/building-1.JPG"
+                  alt="Title"
+                />
+                <div
+                  class="card-body position-absolute bottom-0 start-0 top-0 end-0 d-flex flex-column justify-content-between"
+                >
+                  <h4 class="card-title">Title</h4>
+                  <div class="links text-center">
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#building-1"
                       ><i class="fa-solid fa-magnifying-glass-plus"></i
                     ></a>
                     <a href=""><i class="fa-solid fa-link"></i></a>
@@ -171,11 +215,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 construction">
+            <div class="col-sm-12 col-md-6 col-lg-4 finishing">
               <div class="card position-relative">
                 <img
                   class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
+                  src="./assets/img/projects/finishing-1.JPG"
                   alt="Title"
                 />
                 <div
@@ -183,7 +227,10 @@
                 >
                   <h4 class="card-title">Title</h4>
                   <div class="links text-center">
-                    <a href=""
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#finishing-1"
                       ><i class="fa-solid fa-magnifying-glass-plus"></i
                     ></a>
                     <a href=""><i class="fa-solid fa-link"></i></a>
@@ -192,11 +239,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 repairs">
+            <div class="col-sm-12 col-md-6 col-lg-4 structural">
               <div class="card position-relative">
                 <img
                   class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
+                  src="./assets/img/projects/structural-1.JPG"
                   alt="Title"
                 />
                 <div
@@ -204,7 +251,10 @@
                 >
                   <h4 class="card-title">Title</h4>
                   <div class="links text-center">
-                    <a href=""
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#structural-1"
                       ><i class="fa-solid fa-magnifying-glass-plus"></i
                     ></a>
                     <a href=""><i class="fa-solid fa-link"></i></a>
@@ -213,11 +263,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 design">
+            <div class="col-sm-12 col-md-6 col-lg-4 planning">
               <div class="card position-relative">
                 <img
                   class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
+                  src="./assets/img/projects/planning-2.jpg"
                   alt="Title"
                 />
                 <div
@@ -225,7 +275,10 @@
                 >
                   <h4 class="card-title">Title</h4>
                   <div class="links text-center">
-                    <a href=""
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#planning-2"
                       ><i class="fa-solid fa-magnifying-glass-plus"></i
                     ></a>
                     <a href=""><i class="fa-solid fa-link"></i></a>
@@ -234,11 +287,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 remodeling">
+            <div class="col-sm-12 col-md-6 col-lg-4 building">
               <div class="card position-relative">
                 <img
                   class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
+                  src="./assets/img/projects/building-2.JPG"
                   alt="Title"
                 />
                 <div
@@ -246,7 +299,10 @@
                 >
                   <h4 class="card-title">Title</h4>
                   <div class="links text-center">
-                    <a href=""
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#building-2"
                       ><i class="fa-solid fa-magnifying-glass-plus"></i
                     ></a>
                     <a href=""><i class="fa-solid fa-link"></i></a>
@@ -255,11 +311,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 construction">
+            <div class="col-sm-12 col-md-6 col-lg-4 finishing">
               <div class="card position-relative">
                 <img
                   class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
+                  src="./assets/img/projects/finishing-2.JPG"
                   alt="Title"
                 />
                 <div
@@ -267,7 +323,10 @@
                 >
                   <h4 class="card-title">Title</h4>
                   <div class="links text-center">
-                    <a href=""
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#finishing-2"
                       ><i class="fa-solid fa-magnifying-glass-plus"></i
                     ></a>
                     <a href=""><i class="fa-solid fa-link"></i></a>
@@ -276,11 +335,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 repairs">
+            <div class="col-sm-12 col-md-6 col-lg-4 structural">
               <div class="card position-relative">
                 <img
                   class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
+                  src="./assets/img/projects/structural-2.JPG"
                   alt="Title"
                 />
                 <div
@@ -288,7 +347,10 @@
                 >
                   <h4 class="card-title">Title</h4>
                   <div class="links text-center">
-                    <a href=""
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#structural-2"
                       ><i class="fa-solid fa-magnifying-glass-plus"></i
                     ></a>
                     <a href=""><i class="fa-solid fa-link"></i></a>
@@ -297,11 +359,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 design">
+            <div class="col-sm-12 col-md-6 col-lg-4 planning">
               <div class="card position-relative">
                 <img
                   class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
+                  src="./assets/img/projects/planning-3.jpg"
                   alt="Title"
                 />
                 <div
@@ -309,7 +371,10 @@
                 >
                   <h4 class="card-title">Title</h4>
                   <div class="links text-center">
-                    <a href=""
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#planning-3"
                       ><i class="fa-solid fa-magnifying-glass-plus"></i
                     ></a>
                     <a href=""><i class="fa-solid fa-link"></i></a>
@@ -318,11 +383,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 remodeling">
+            <div class="col-sm-12 col-md-6 col-lg-4 building">
               <div class="card position-relative">
                 <img
                   class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
+                  src="./assets/img/projects/building-3.JPG"
                   alt="Title"
                 />
                 <div
@@ -330,7 +395,35 @@
                 >
                   <h4 class="card-title">Title</h4>
                   <div class="links text-center">
-                    <a href=""
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#building-3"
+                    >
+                      <i class="fa-solid fa-magnifying-glass-plus"></i
+                    ></a>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                  </div>
+                  <p class="card-text text-center">Text</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 finishing">
+              <div class="card position-relative">
+                <img
+                  class="card-img-top"
+                  src="./assets/img/projects/finishing-3.JPG"
+                  alt="Title"
+                />
+                <div
+                  class="card-body position-absolute bottom-0 start-0 top-0 end-0 d-flex flex-column justify-content-between"
+                >
+                  <h4 class="card-title">Title</h4>
+                  <div class="links text-center">
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#finishing-3"
                       ><i class="fa-solid fa-magnifying-glass-plus"></i
                     ></a>
                     <a href=""><i class="fa-solid fa-link"></i></a>
@@ -339,11 +432,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 construction">
+            <div class="col-sm-12 col-md-6 col-lg-4 structural">
               <div class="card position-relative">
                 <img
                   class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
+                  src="./assets/img/projects/structural-3.JPG"
                   alt="Title"
                 />
                 <div
@@ -351,49 +444,10 @@
                 >
                   <h4 class="card-title">Title</h4>
                   <div class="links text-center">
-                    <a href=""
-                      ><i class="fa-solid fa-magnifying-glass-plus"></i
-                    ></a>
-                    <a href=""><i class="fa-solid fa-link"></i></a>
-                  </div>
-                  <p class="card-text text-center">Text</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 repairs">
-              <div class="card position-relative">
-                <img
-                  class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
-                  alt="Title"
-                />
-                <div
-                  class="card-body position-absolute bottom-0 start-0 top-0 end-0 d-flex flex-column justify-content-between"
-                >
-                  <h4 class="card-title">Title</h4>
-                  <div class="links text-center">
-                    <a href=""
-                      ><i class="fa-solid fa-magnifying-glass-plus"></i
-                    ></a>
-                    <a href=""><i class="fa-solid fa-link"></i></a>
-                  </div>
-                  <p class="card-text text-center">Text</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 design">
-              <div class="card position-relative">
-                <img
-                  class="card-img-top"
-                  src="./assets/img/projects/project.jpg"
-                  alt="Title"
-                />
-                <div
-                  class="card-body position-absolute bottom-0 start-0 top-0 end-0 d-flex flex-column justify-content-between"
-                >
-                  <h4 class="card-title">Title</h4>
-                  <div class="links text-center">
-                    <a href=""
+                    <a
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#structural-3"
                       ><i class="fa-solid fa-magnifying-glass-plus"></i
                     ></a>
                     <a href=""><i class="fa-solid fa-link"></i></a>
@@ -408,6 +462,243 @@
     </main>
     <!-- Main End -->
 
+    <!-- Modals -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="planning-1"
+      tabindex="-1"
+      aria-labelledby="planning-1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/planning-1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="planning-2"
+      tabindex="-1"
+      aria-labelledby="planning-2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/planning-2.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="planning-3"
+      tabindex="-1"
+      aria-labelledby="planning-3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/planning-3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="structural-1"
+      tabindex="-1"
+      aria-labelledby="structural-1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/structural-1.JPG" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="structural-2"
+      tabindex="-1"
+      aria-labelledby="structural-2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/structural-2.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="structural-3"
+      tabindex="-1"
+      aria-labelledby="structural-3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/structural-3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="building-1"
+      tabindex="-1"
+      aria-labelledby="building-1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/building-1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="building-2"
+      tabindex="-1"
+      aria-labelledby="building-2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/building-2.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="building-3"
+      tabindex="-1"
+      aria-labelledby="building-3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/building-3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="finishing-1"
+      tabindex="-1"
+      aria-labelledby="finishing-1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/finishing-1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="finishing-2"
+      tabindex="-1"
+      aria-labelledby="finishing-2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/finishing-2.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="finishing-3"
+      tabindex="-1"
+      aria-labelledby="finishing-3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close position-absolute p-3"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <img src="./assets/img/projects/finishing-3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Modals End -->
+
     <!-- Scroll To Top -->
     <a
       href="#"
@@ -416,6 +707,7 @@
       <i class="fa-solid fa-up-long"></i>
     </a>
     <!-- Scroll To Top End -->
+
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
@@ -423,14 +715,20 @@
           <div class="col-md-12 col-lg-6">
             <div class="footer-content" data-aos="fade-up">
               <h2 class="mb-4">
-                <a class="navbar-brand" href="#">
-                  <span class="color-primary">EDC</span> Construction<span
-                    class="color-primary"
-                    >.</span
-                  ></a
-                >
+                <a class="navbar-brand font-secondary-bold" href="#">
+                  <img
+                    class=""
+                    src="./assets/img/logo-light.png"
+                    alt=""
+                    style="width: 40px"
+                  />
+                  <!-- <span class="color-primary font-primary">EDC</span>
+                  Construction<span class="color-primary">.</span> -->
+                </a>
               </h2>
-              <div class="contacts d-flex flex-column gap-3 mb-4">
+              <div
+                class="contacts d-flex flex-column gap-3 mb-4 font-secondary-bold fs-3"
+              >
                 <a href=""
                   ><i class="fa-solid fa-building fa-beat-fade fa-lg"></i> : 6th
                   of October</a
@@ -464,24 +762,44 @@
           </div>
           <div class="col-md-12 col-lg-6">
             <ul
-              class="footer-nav list-unstyled d-flex flex-column gap-3 align-items-c enter"
+              class="footer-nav list-unstyled d-flex flex-column gap-3 align-items-c enter font-secondary-bold fs-3"
               data-aos="fade-up"
+              data-aos-delay="100"
             >
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li>
+                <a class="text-decoration-none" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="about.html">About</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="services.html"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none" href="projects.html"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none" href="contact.html">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
-        <p class="footer-copyright">
+        <p class="footer-copyright font-secondary-bold">
           &copy; Copyright
-          <span class="color-primary">EDC</span> Construction<span
-            class="color-primary"
-            >.</span
-          >
-          2025
+          <span class="brand-name font-primary">
+            <span class="color-primary">E</span>ngineers
+            <span class="color-primary">D</span>esign and
+            <span class="color-primary">C</span>ontracting<span
+              class="color-primary"
+              >.</span
+            >
+          </span>
+          <!-- . All Rights Reserved. -->
+          <span class=""> 2025</span>
         </p>
       </div>
     </footer>

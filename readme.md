@@ -4,8 +4,8 @@ This is a Bootstrap template for EDC Construction.
 
 ## Screenshot
 
-| Desktop version                                     |                 Mobile Version                  |
-| --------------------------------------------------- | :---------------------------------------------: |
+| Desktop version                                  |                 Mobile Version                  |
+| ------------------------------------------------ | :---------------------------------------------: |
 | ![Solution Screenshot](./Screenshot/desktop.png) | ![Solution Screenshot](./Screenshot/mobile.png) |
 
 ## Links

@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo-dark.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./assets/css/all.min.css" />
     <link rel="stylesheet" href="./assets/css/aos.css" />
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
@@ -19,11 +23,18 @@
       <nav class="navbar" data-bs-theme="dark">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <span class="color-primary">EDC</span> Construction<span
+            <img
+              class="logo-img mw-100"
+              style="width: 35px"
+              src="./assets/img/logo-light.png"
+              alt="Logo"
+            />
+
+            <!-- <span class="color-primary">EDC</span> Construction<span
               class="color-primary"
               >.</span
-            ></a
-          >
+            > -->
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -43,11 +54,18 @@
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
                 <a class="navbar-brand" href="#">
-                  <span class="color-primary">EDC</span> Construction<span
+                  <img
+                    class="mw-100"
+                    style="width: 35px"
+                    src="./assets/img/logo-light.png"
+                    alt="Logo"
+                  />
+
+                  <!-- <span class="color-primary">EDC</span> Construction<span
                     class="color-primary"
                     >.</span
-                  ></a
-                >
+                  > -->
+                </a>
               </h5>
               <button
                 type="button"
@@ -78,41 +96,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-                <!-- <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li> -->
               </ul>
-              <!-- <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form> -->
             </div>
           </div>
         </div>
@@ -152,6 +136,22 @@
               "
             ></div>
           </div>
+          <div class="carousel-item">
+            <div
+              class="img"
+              style="
+                background-image: url('./assets/img/hero-carousel/hero-carousel-4.jpg');
+              "
+            ></div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="img"
+              style="
+                background-image: url('./assets/img/hero-carousel/hero-carousel-5.jpg');
+              "
+            ></div>
+          </div>
         </div>
         <button
           class="carousel-control-prev"
@@ -178,14 +178,21 @@
           data-aos="zoom-in"
           data-aos-duration="3000"
         >
-          <h1 class="landing-title">
-            Welcom to <span class="color-primary">EDC</span> Construction<span
-              class="color-primary"
-              >.</span
-            >
+          <h1 class="landing-title font-secondary-bold fs-sm-6">
+            Welcom to <br />
+            <span class="brand-name font-primary">
+              <span class="color-primary">E</span>ngineers
+              <span class="color-primary">D</span>esign and
+              <span class="color-primary">C</span>ontracting<span
+                class="color-primary"
+                >.</span
+              >
+            </span>
           </h1>
-          <p class="landing-desc">We Build Your Dream.</p>
-          <a href="#" class="btn-started">Get Started</a>
+          <p class="landing-desc font-secondary fst-italic">
+            We Build Your Dream.
+          </p>
+          <a href="#" class="btn-started text-decoration-none">Get Started</a>
         </div>
       </div>
     </div>
@@ -201,69 +208,110 @@
         </div>
         <div class="container">
           <div class="row row-gap-3">
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="card" data-aos="fade-up">
                 <img
-                  src="./assets/img/constructions-1.jpg"
+                  src="./assets/img/construction/planning.jpg"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Planning and Design</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Identify the project's purpose and requirements. Develop
+                    initial project plans and sketches. Create detailed
+                    architectural and engineering designs.
                   </p>
                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="card" data-aos="fade-up" data-aos-delay="100">
                 <img
-                  src="./assets/img/constructions-2.jpg"
+                  src="./assets/img/construction/site-preparation.JPG"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Site Preparation</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Clear the construction site of any obstructions. Perform
+                    soil tests to ensure foundation stability. Excavate and
+                    grade the site to the required levels.
                   </p>
                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="card" data-aos="fade-up" data-aos-delay="200">
                 <img
-                  src="./assets/img/constructions-3.jpg"
+                  src="./assets/img/construction/foundation.JPG"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Foundation Construction</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Dig and pour the building's foundation. Install footings,
+                    piers, and retaining walls. Lay the groundwork for utility
+                    lines like water, gas, and electricity.
                   </p>
                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="card" data-aos="fade-up" data-aos-delay="300">
                 <img
-                  src="./assets/img/constructions-4.jpg"
+                  src="./assets/img/construction/structural-framwork.JPG"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Structural Framework</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Erect the main support structure (steel, wood, or concrete
+                    framing). Install beams, columns, and load-bearing walls.
+                    Construct floors, ceilings, and roof structures.
+                  </p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="card" data-aos="fade-up" data-aos-delay="200">
+                <img
+                  src="./assets/img/construction/building-envelope.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Building Envelope</h5>
+                  <p class="card-text">
+                    Install exterior walls, insulation, and sheathing. Set up
+                    windows, doors, and exterior finishes. Apply roofing
+                    materials to ensure weatherproofing. Build interior walls,
+                    partitions, and ceilings.
+                  </p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="card" data-aos="fade-up" data-aos-delay="300">
+                <img
+                  src="./assets/img/construction/final-touch.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Final Touches and Inspection</h5>
+                  <p class="card-text">
+                    Complete any remaining work like landscaping and exterior
+                    amenities. Conduct thorough inspections to ensure compliance
+                    with building codes.
                   </p>
                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
@@ -487,14 +535,20 @@
           <div class="col-md-12 col-lg-6">
             <div class="footer-content" data-aos="fade-up">
               <h2 class="mb-4">
-                <a class="navbar-brand" href="#">
-                  <span class="color-primary">EDC</span> Construction<span
-                    class="color-primary"
-                    >.</span
-                  ></a
-                >
+                <a class="navbar-brand font-secondary-bold" href="#">
+                  <img
+                    class=""
+                    src="./assets/img/logo-light.png"
+                    alt=""
+                    style="width: 40px"
+                  />
+                  <!-- <span class="color-primary font-primary">EDC</span>
+                  Construction<span class="color-primary">.</span> -->
+                </a>
               </h2>
-              <div class="contacts d-flex flex-column gap-3 mb-4">
+              <div
+                class="contacts d-flex flex-column gap-3 mb-4 font-secondary-bold fs-3"
+              >
                 <a href=""
                   ><i class="fa-solid fa-building fa-beat-fade fa-lg"></i> : 6th
                   of October</a
@@ -528,25 +582,44 @@
           </div>
           <div class="col-md-12 col-lg-6">
             <ul
-              class="footer-nav list-unstyled d-flex flex-column gap-3 align-items-c enter"
+              class="footer-nav list-unstyled d-flex flex-column gap-3 align-items-c enter font-secondary-bold fs-3"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li>
+                <a class="text-decoration-none" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="about.html">About</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="services.html"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none" href="projects.html"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none" href="contact.html">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
-        <p class="footer-copyright">
+        <p class="footer-copyright font-secondary-bold">
           &copy; Copyright
-          <span class="color-primary">EDC</span> Construction<span
-            class="color-primary"
-            >.</span
-          >
-          2025
+          <span class="brand-name font-primary">
+            <span class="color-primary">E</span>ngineers
+            <span class="color-primary">D</span>esign and
+            <span class="color-primary">C</span>ontracting<span
+              class="color-primary"
+              >.</span
+            >
+          </span>
+          <!-- . All Rights Reserved. -->
+          <span class=""> 2025</span>
         </p>
       </div>
     </footer>

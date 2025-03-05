@@ -1,0 +1,27 @@
+#constructions .card {
+  background-color: var(--bg-section);
+  .card-body {
+    height: 210px;
+  }
+}
+
+#testimonials {
+  background-color: var(--bg-section);
+  .owl-carousel .owl-dot.active span {
+    background: var(--color-primary);
+  }
+  .card {
+    svg {
+      color: var(--color-primary);
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 5px;
+      margin: 20px;
+    }
+    .rate {
+      margin-bottom: 20px;
+    }
+  }
+}

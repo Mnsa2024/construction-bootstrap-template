@@ -1,0 +1,40 @@
+@use "../abstracts";
+
+#our-services {
+  background: var(--bg-section);
+  .card {
+    overflow: hidden;
+
+    img {
+      transition: transform 0.5s ease-in-out;
+      margin-bottom: 10px;
+    }
+    .card-body {
+      height: 280px;
+      h5.card-title {
+        padding-bottom: 8px;
+        border-bottom: 3px solid var(--color-light);
+        display: inline-block;
+      }
+      ul.card-text {
+      }
+      a {
+        text-decoration: none;
+        color: var(--color-secondary);
+        font-weight: bold;
+        &:hover {
+          color: var(--color-primary);
+        }
+      }
+    }
+
+    &:hover img {
+      transform: scale(1.15);
+    }
+    &:hover h5 {
+      padding-bottom: 8px;
+      border-bottom: 3px solid var(--color-primary);
+      display: inline-block;
+    }
+  }
+}

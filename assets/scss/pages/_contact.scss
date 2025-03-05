@@ -1,0 +1,19 @@
+#contact {
+  background: var(--bg-section);
+  .card {
+    &:hover svg {
+      color: var(--color-primary);
+    }
+    &:hover p.card-text {
+      color: var(--color-primary);
+    }
+    svg {
+      color: var(--color-secondary);
+    }
+  }
+  .contact-form {
+    button:hover {
+      background-color: var(--color-primary);
+    }
+  }
+}
